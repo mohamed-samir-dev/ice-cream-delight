@@ -1,10 +1,7 @@
 @media (max-width: 768px) {
     .header {
-        .header {
-            padding: clamp(0.8rem, 1.5vw, 1rem) 0;
-        }
+        padding: clamp(0.8rem, 1.5vw, 1rem) 0;
     }
-
 
     .menu-toggle {
         display: block;
@@ -74,6 +71,7 @@
 
     .hero {
         padding: 4rem 2rem;
+grid-template-columns: 1fr;
     }
 
     .hero__stats {
@@ -145,9 +143,7 @@
     padding: 0 20px 20px;
 }
 
-.footer__content {
-    grid-template-columns: repeat(1, 1fr);
-}
+
 
 .footer__bottom {
     flex-direction: column;
@@ -196,6 +192,7 @@
         padding: 40px 0 20px;
         width: 100%;
         margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .footer__container {
@@ -210,21 +207,18 @@
         padding: 15px;
     }
 }
-
-@media (max-width: 992px) {
-    .hero {
+@media screen and (max-width: 1024px) {
+    .hero__content {
         grid-template-columns: 1fr;
         text-align: center;
-        gap: 2rem;
     }
 
-    .hero__content {
+    .hero__left {
         align-items: center;
     }
 
     .hero__description {
-        max-width: 600px;
-        margin: auto;
+        margin: 0 auto;
     }
 
     .hero__actions {
@@ -232,12 +226,7 @@
     }
 
     .hero__image {
-        height: auto;
-        order: -1;
-    }
-
-    .hero__image img {
-        width: 50%;
-        margin-bottom: 50px;
+        max-width: 500px;
+        margin: 0 auto;
     }
 }
