@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Your website description" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/reshot-icon-love-ice-cream-T8QVEY7WKB.svg"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <title>Ice Cream</title>
+  </head>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
+          <img src="img/logo-removebg-preview.png" alt="Company Logo" loading="lazy" />
+        </div>
+        <nav class="main-nav">
+          <ul class="main-nav__list">
+            <li class="main-nav__item">
+              <a href="#about" class="main-nav__link">About Us</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#products" class="main-nav__link">Products</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#delivery" class="main-nav__link">Delivery</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#news" class="main-nav__link">News</a>
+            </li>
+            <li></li>
+          </ul>
+        </nav>
+
+        <div class="header__actions">
+          <div class="search-box">
+            <button class="search-box__button" aria-label="Search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+          <div class="cart">
+            <button class="cart__button" aria-label="Shopping Cart">
+              <i class="fa-solid fa-shopping-cart"></i>
+            </button>
+          </div>
+          <div class="contact">
+            <button class="contact__button">Contact Us</button>
+          </div>
+          <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+<main>
+    <section class="hero"  id="about">
+      <div class="hero__content">
+        <div class="hero__headlines">
+          <h1 class="hero__title">
+            Indulge in the<br />
+            Sweetest <span class="hero__title-highlight">Treats!</span>
+          </h1>
+          <p class="hero__description">
+            The perfect blend of creamy and dreamy. Taste the magic in every
+            scoop.
+          </p>
+        </div>
+
+        <div class="hero__actions">
+          <button class="hero__btn btn-primary">Discover Flavors</button>
+          <a href="#process" class="hero__link">Working Process</a>
+        </div>
+
+        <div class="hero__stats">
+          <div class="stat-card">
+            <h2 class="stat-card__number">1,000+</h2>
+            <p class="stat-card__label">Types of Ice Cream</p>
+          </div>
+          <div class="stat-card">
+            <h2 class="stat-card__number">7,400+</h2>
+            <p class="stat-card__label">Offline Shops</p>
+          </div>
+          <div class="stat-card">
+            <h2 class="stat-card__number">2,000+</h2>
+            <p class="stat-card__label">Happy Customers</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__image">
+        <img
+          src="img/a_vibrant_illustration_of_a_cheerful_anthropomorphic_lion_character_wearing_a_colorful_hawaiian-sty_pgkk0y0ncnmfvw1ea7kz_0-removebg.png"
+          alt="Delicious Ice Cream Selection"
+          loading="lazy"
+        />
+      </div>
+    </section>
+    <section class="explore" id="products">
+      <div class="explore_container">
+        <div class="explore__header">
+          <h2 class="section-title">Explore Our Delicious Flavors</h2>
+        </div>
+        <article class="product-card">
+          <div class="product-card__image">
+            <img
+              src="img/advertisement-dessert-with-ice-cream.jpg"
+              alt="Vanilla Ice Cream Cone"
+              loading="lazy"
+            />
+            <button class="favorite-btn" aria-label="Add to favorites">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+          <div class="product-card__content">
+            <h3 class="product-card__title">Vanilla</h3>
+            <p class="product-card__description">
+              Classic creamy vanilla ice cream
+            </p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$5.00</span>
+              <button class="product-card__btn" aria-label="Add to cart">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-card__image">
+            <img
+              src="img/DALL·E 2025-02-14 19.19.31 - A beautifully crafted ice cream cone labeled 'Qartas Ice Cream,' with a swirl of creamy vanilla and strawberry ice cream topped with chocolate drizzle.webp"
+              alt="Vanilla Ice Cream Cone"
+              loading="lazy"
+            />
+            <button class="favorite-btn" aria-label="Add to favorites">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+          <div class="product-card__content">
+            <h3 class="product-card__title">Boysenberry Swirl</h3>
+            <p class="product-card__description">
+              Classic creamy Boysenberry Swirl ice cream
+            </p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$5.00</span>
+              <button class="product-card__btn" aria-label="Add to cart">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-card__image">
+            <img
+              src="img/DALL·E 2025-02-14 19.20.14 - A beautifully crafted ice cream cone labeled 'Qartas Ice Cream,' with a swirl of chocolate and caramel ice cream, topped with crushed nuts and a caram.webp"
+              alt="Vanilla Ice Cream Cone"
+              loading="lazy"
+            />
+            <button class="favorite-btn" aria-label="Add to favorites">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+          </div>
+          <div class="product-card__content">
+            <h3 class="product-card__title">super Choc</h3>
+            <p class="product-card__description">
+              Classic creamy super Choc ice cream
+            </p>
+            <div class="product-card__footer">
+              <span class="product-card__price">$5.00</span>
+              <button class="product-card__btn" aria-label="Add to cart">
+                <i class="fa-solid fa-cart-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="explore-premium">
+      <div class="explore-premium__header">
+        <h2 class="section-title">Explore Our Premium Ice Cream Collection</h2>
+      </div>
+
+      <div class="explore-premium__container">
+        <article class="product-card2">
+          <div class="product-card2__image">
+            <img
+              src="img/DALL·E 2025-02-16 02.44.16 - A luxurious vanilla ice cream cup with multiple scoops, drizzled with rich caramel syrup. The cup should have a sleek black exterior with 'Ice Cream' .webp"
+              alt="Vanilla Ice Cream Cone"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="product-card2__content">
+            <h3 class="product-card2__title">Belgian Vanilla</h3>
+            <p class="product-card2__description">
+              Indulge in the rich, velvety essence of authentic Belgian
+              Chocolate
+            </p>
+            <div class="product-card2__footer">
+              <span class="product-card2__price">$5.00</span>
+              <div class="product-card2__actions">
+                <button class="btn btn--primary" aria-label="Shop Now">
+                  Shop Now
+                </button>
+                <button class="btn btn--icon" aria-label="Add to favorites">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="product-card2">
+          <div class="product-card2__image">
+            <img
+              src="img/DALL·E 2025-02-16 02.43.54 - A luxurious chocolate ice cream cup with multiple scoops, drizzled with rich dark chocolate syrup. The cup should have a sleek black exterior with 'Ic.webp"
+              alt="Premium Belgian Chocolate Ice Cream"
+              loading="lazy"
+            />
+          </div>
+
+          <div class="product-card2__content">
+            <h3 class="product-card2__title">Belgian Chocolate</h3>
+            <p class="product-card2__description">
+              Indulge in the rich, velvety essence of authentic Belgian
+              Chocolate
+            </p>
+            <div class="product-card2__footer">
+              <span class="product-card2__price">$5.00</span>
+              <div class="product-card2__actions">
+                <button class="btn btn--primary" aria-label="Shop Now">
+                  Shop Now
+                </button>
+                <button class="btn btn--icon" aria-label="Add to favorites">
+                  <i class="fa-regular fa-heart"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="current_item">
+      <div class="current_item__header">
+        <h2 class="section-title">Current item</h2>
+      </div>
+      <div class="current_item_container">
+        <div class="current_item1">
+          <div class="current_item1_1">
+            <div class="current_item_image">
+              <img
+                src="img/reshot-icon-ice-cream-M2PBEXL48S.svg"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="current_item_content">
+              <h2 class="current_item_title">Seasonal Flavor</h2>
+              <p class="current_item_description">
+                A fall favorite featuring a smooth blend of pumpkin ice cream
+                with cinnamon and nutmeg swirls.
+              </p>
+            </div>
+          </div>
+          <div class="current_item1_1">
+            <div class="current_item_image">
+              <img
+                src="img/reshot-icon-beverage-DPS68GWMB7.svg"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="current_item_content">
+              <h2 class="current_item_title">Blueberry Cheesecake Crumble</h2>
+              <p class="current_item_description">
+                Creamy cheesecake ice cream with a blueberry ripple and graham
+                cracker crumbles.
+              </p>
+            </div>
+          </div>
+          <div class="current_item1_1">
+            <div class="current_item_image">
+              <img
+                src="img/reshot-icon-coffee-break-GS4XY3UDTB.svg"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="current_item_content">
+              <h2 class="current_item_title">Maple Pecan Crunch</h2>
+              <p class="current_item_description">
+                Creamy maple-flavored ice cream mixed with crunchy candied
+                pecans.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="current_item2">
+          <div class="current_item2_img">
+            <img
+              src="img/DALL_E_2025-02-20_23.04.41_-_A_luxurious_and_colorful_ice_cream_sundae_in_a_crystal-clear_glass_bowl__featuring_scoops_of_rich_chocolate__strawberry__mint__and_vanilla_ice_cream-removebg-preview.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="current_item1">
+          <div class="current_item1_1">
+            <div class="current_item_image">
+              <img
+                src="img/reshot-icon-coffee-cup-FHLVM48UAQ.svg"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="current_item_content">
+              <h2 class="current_item_title">Cotton Candy Blast</h2>
+              <p class="current_item_description">
+                A sweet and colorful treat with a mix of blue and pink cotton
+                candy flavors.
+              </p>
+            </div>
+          </div>
+          <div class="current_item1_1">
+            <div class="current_item_image">
+              <img
+                src="img/reshot-icon-coffee-shop-UCYREWK2P6.svg"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="current_item_content">
+              <h2 class="current_item_title">Caramel Apple Pie</h2>
+              <p class="current_item_description">
+                ce cream with chunks of real apple pie, caramel swirls, and
+                cinnamon.
+              </p>
+            </div>
+          </div>
+          <div class="current_item1_1">
+            <div class="current_item_image">
+              <img
+                src="img/reshot-icon-drink-Z45XH9P8F6.svg"
+                alt=""
+                loading="lazy"
+              />
+            </div>
+            <div class="current_item_content">
+              <h2 class="current_item_title">Cookies & Cream Explosion</h2>
+              <p class="current_item_description">
+                Classic vanilla ice cream loaded with chocolate cookie pieces.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section class="latest_insights">
+      <div class="latest_insights__header">
+        <h2 class="section-title">Our Latest Insights</h2>
+      </div>
+      <div class="latest_insights__imgs">
+        <div class="latest_insights__img">
+          <img
+            src="img/DALL·E 2025-02-18 02.04.25 - A romantic scene of a man and his wife enjoying ice cream together at an outdoor café during sunset. The couple is smiling, sharing bites of their ice.webp"
+            alt="Couple enjoying ice cream at sunset"
+            loading="lazy"
+          />
+          <div class="latest_insights__overlay">
+            <h3>Romantic Moments</h3>
+            <p>Share sweet moments with your loved ones</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+        <div class="latest_insights__img">
+          <img
+            src="img/DALL·E 2025-02-18 02.09.43 - A joyful scene of children enjoying ice cream together at an outdoor park during a sunny day. The kids are laughing, sharing different flavors, and ha.webp"
+            alt="Children enjoying ice cream in the park"
+            loading="lazy"
+          />
+          <div class="latest_insights__overlay">
+            <h3>Family Fun</h3>
+            <p>Creating memories that last forever</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+        <div class="latest_insights__img">
+          <img
+            src="img/pexels-avichal-lodhi-1054429-2819088.jpg"
+            alt="Ice cream experience"
+            loading="lazy"
+          />
+          <div class="latest_insights__overlay">
+            <h3>Pure Delight</h3>
+            <p>Discover our premium flavors</p>
+            <a href="#" class="read-more">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="testimonial__header">
+        <h2 class="section-title">What Our Ice Cream Lovers Say</h2>
+        <p class="section-subtitle">
+          Real experiences from our valued customers
+        </p>
+      </div>
+
+      <div class="testimonial__container">
+        <div class="testimonial__box">
+          <div class="testimonial__img">
+            <img
+              src="img/pexels-simon-robben-55958-614810.jpg"
+              alt="Jane Doe - Ice Cream Enthusiast"
+              loading="lazy"
+            />
+            <div class="testimonial__quote">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="testimonial__content">
+            <h3 class="testimonial__name">Jane Doe</h3>
+            <p class="testimonial__role">Ice Cream Enthusiast</p>
+            <p class="testimonial__text">
+              "The best ice cream in the world! I love every single flavor and
+              combination. I'd recommend this to anyone!"
+            </p>
+            <div class="testimonial__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial__container">
+        <div class="testimonial__box">
+          <div class="testimonial__img">
+            <img
+              src="img/pexels-pixabay-157661.jpg"
+              alt="Jane Doe - Ice Cream Enthusiast"
+              loading="lazy"
+            />
+            <div class="testimonial__quote">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="testimonial__content">
+            <h3 class="testimonial__name">Jane Doe</h3>
+            <p class="testimonial__role">Ice Cream Enthusiast</p>
+            <p class="testimonial__text">
+              "The best ice cream in the world! I love every single flavor and
+              combination. I'd recommend this to anyone!"
+            </p>
+            <div class="testimonial__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial__container">
+        <div class="testimonial__box">
+          <div class="testimonial__img">
+            <img
+              src="img/pexels-theo-decker-5955134.jpg"
+              alt="Jane Doe - Ice Cream Enthusiast"
+              loading="lazy"
+            />
+            <div class="testimonial__quote">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+          </div>
+          <div class="testimonial__content">
+            <h3 class="testimonial__name">Jane Doe</h3>
+            <p class="testimonial__role">Ice Cream Enthusiast</p>
+            <p class="testimonial__text">
+              "The best ice cream in the world! I love every single flavor and
+              combination. I'd recommend this to anyone!"
+            </p>
+            <div class="testimonial__rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="lovers">
+      <div class="lover_header">
+        <h2 class="section-title">Some Of Our Cream Lovers</h2>
+      </div>
+      <div class="lovers_container">
+        <div class="lovers_item">
+          <h3>What are your most popular flavors?</h3>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="lovers_item_details">
+          <h3>Do you offer dairy-free or vegan options?</h3>
+          <p>
+            Yes, we have a selection of dairy-free and vegan-friendly ice
+            creams, including flavors like Coconut Milk Chocolate and Mango
+            Sorbet. Check our "Flavors" page for more details.
+          </p>
+        </div>
+        <div class="lovers_item">
+          <h3>Do you cater for events or special occasions?</h3>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="lovers_item_details">
+          <p>
+            We offer various event packages, including birthday, wedding, and
+            anniversary cakes. You can customize your ice cream experience to
+            suit your needs and budget.
+          </p>
+        </div>
+        <div class="lovers_item">
+          <h3>Do you cater for events or special occasions?</h3>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="lovers_item_details">
+          <p>
+            We offer various event packages, including birthday, wedding, and
+            anniversary cakes. You can customize your ice cream experience to
+            suit your needs and budget.
+          </p>
+        </div>
+        <div class="lovers_item">
+          <h3>Do you cater for events or special occasions?</h3>
+          <i class="fa-solid fa-plus"></i>
+        </div>
+        <div class="lovers_item_details">
+          <p>
+            We offer various event packages, including birthday, wedding, and
+            anniversary cakes. You can customize your ice cream experience to
+            suit your needs and budget.
+          </p>
+        </div>
+      </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__container">
+        <div class="footer__brand">
+            <img src="img/logo-removebg-preview.png" alt="Ice Cream Company Logo" class="footer__logo" loading="lazy"/>
+            <p class="footer__tagline">Crafting moments of joy since 1995</p>
+        </div>
+
+        <div class="footer__content">
+            <div class="footer__section">
+                <h3 class="footer__heading">About Us</h3>
+                <ul class="footer__list">
+                    <li><a href="#about">Our Story</a></li>
+                    <li><a href="#about">Sustainability</a></li>
+                    <li><a href="#about">FAQs</a></li>
+                    <li><a href="#about">Careers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <h3 class="footer__heading">Products</h3>
+                <ul class="footer__list">
+                    <li><a href="#about">Ice Cream Collection</a></li>
+                    <li><a href="#about">Signature Recipes</a></li>
+                    <li><a href="#about">Commercial Solutions</a></li>
+                    <li><a href="#about">Seasonal Specials</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <h3 class="footer__heading">Contact Us</h3>
+                <ul class="footer__list footer__list--contact">
+                    <li><i class="fas fa-phone"></i> +20 (101) 248-6445</li>
+                    <li><i class="fas fa-envelope"></i> hello@icecream.com</li>
+                    <li><i class="fas fa-location-dot"></i> 123 Ice Cream Street, Cairo, Egypt</li>
+                </ul>
+            </div>
+
+            <div class="footer__section">
+                <h3 class="footer__heading">Connect With Us</h3>
+                <div class="footer__social">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <img src="img/facebook-brands.svg" alt="Facebook" loading="lazy">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                   <img src="img/instagram-brands.svg" alt="Twitter" loading="lazy">
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <img src="img/x-solid (1).svg" alt="Instagram" loading="lazy">
+                    </a>
+                    <a href="#" class="social-link" aria-label="YouTube">
+                        <img src="img/youtube-brands.svg" alt="YouTube" loading="lazy"> </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copyright">© 2024 Ice Cream Co. All rights reserved.</p>
+            <div class="footer__legal">
+                <a href="/privacy">Privacy Policy</a>
+                <a href="/terms">Terms of Service</a>
+                <a href="/sitemap">Sitemap</a>
+            </div>
+        </div>
+    </div>
+</footer>
+</footer>
+<script src="script.js"></script>
+</body> 
+   
+  </body>
+</html>
