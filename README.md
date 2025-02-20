@@ -1,6 +1,6 @@
-Project Name
+Ice Cream
 
-A brief description of your website or project.
+A simple website for showcasing ice cream flavors and menu options.
 
 Website Screenshot
-
+![Website Screenshot](img/screencapture-127-0-0-1-5500-index-html-2025-02-21-01_37_17.png)
