@@ -2,6 +2,8 @@
 
 A responsive web application showcasing premium ice cream flavors and menu options with an elegant, user-friendly interface.
 
+🌐 **[Live Demo](https://mohamed-samir-dev.github.io/ice-cream-delight/)**
+
 ## Features
 
 - Interactive flavor showcase
